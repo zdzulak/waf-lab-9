@@ -24,7 +24,7 @@ header {
 /* STEP 10: Set a text-shadow on the rule below that is offset 2px to the left, 2px down, no blur, and color 'black' - check to see that your CSS is well-formatted, and you are all done the lab! */
 header h1,
 header h2 {
-	text-shadow: 2px, 2px, black;
+	text-shadow: 2px 2px black;
 }
 
 /* STEP 8: Change the hyperlinks inside the page header so that they don't use text-decoration: underline anymore (the default) - set it to 'none' instead */
@@ -39,7 +39,7 @@ header > h2 {
 
 main {
 /* STEP 3c: Size up the content in the MAIN element part of the page as well - try 1.8rem */
-
+	font-size: 1.8rem;
 /* STEP 4: Adjust the line-height for better readability - set to 1.5 (no units - we will just use a factor) for all content inside the MAIN element - this will inherit */
 	line-height: 1.5;
 /* STEP 5: Justify text inside the MAIN element of the page so that is has a straight edge both on the left and right sides - text-align: justify (have a look at the result in the browser - we will add margins for space around the text next week */
